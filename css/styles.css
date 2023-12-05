@@ -8,8 +8,14 @@
     src: url('../font/OpenSans_Condensed-SemiBold.ttf') format('opentype');
   }
   
+ 
+h2, h3 {
+    font-family: 'Open sans';
+    src: url('../font/OpenSans_Condensed-SemiBold.ttf') format('opentype');
+}
 
 .header {
+
     background: url("../images 2/girl-with-VR.jpg") center no-repeat;
     background-size: cover;
     min-height: 70vh;
@@ -28,13 +34,13 @@
 }
     
 
-h1{
+h1, nav li{
     font-family: "Quicksand";
     src: url("../font/Quicksand-Bold.ttf") format("truetype");
     
 }
 
-h2, h3{
+h2, h3, p {
     font-family: "Open sans" Georgia, 'Times New Roman', Times, serif;
     src: url(../font/OpenSans_Condensed-SemiBold.ttf) format(truetype);
     color: black
@@ -68,4 +74,18 @@ a {
 
 header a, footer a {
     color: black;
+}
+
+.cta-large {
+    font-family: 'Quicksand';
+    src: url('../font/Quicksand-Bold.ttf') format('truetype');
+    background-color: rgba(239, 233, 174, 1);
+    color:black;
+    font-size: 1em;
+    text-transform: uppercase;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 15px 30px;
 }

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../font/Quicksand-Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Open sans';
+    src: url('../font/OpenSans_Condensed-SemiBold.ttf') format('opentype');
+  }
+  
+
+.header {
+    background: url("../images 2/girl-with-VR.jpg") center no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+    color: rgba(239, 233, 174, 1);
+}
+
+.header-content {
+    position: absolute;
+    text-align: center;
+    top: 80px;
+    left: 100px;
+    max-width: 210px;
+    background-color: rgba(7, 32, 85, 1);
+    padding: 10px 30px;
+}
+    
+
+h1{
+    font-family: "Quicksand";
+    src: url("../font/Quicksand-Bold.ttf") format("truetype");
+    
+}
+
+h2, h3{
+    font-family: "Open sans" Georgia, 'Times New Roman', Times, serif;
+    src: url(../font/OpenSans_Condensed-SemiBold.ttf) format(truetype);
+    color: black
+}
+
+nav {
+    position: static;
+    display: block;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px 50px;
+}
+
+.logo {
+    width: 200px;
+    height: 109px;
+    left: 10px;
+    top: 0px;
+    position: absolute;
+    background: url('../images 2/Logo.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a, footer a {
+    color: black;
+}

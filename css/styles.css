@@ -9,7 +9,7 @@
   }
   
  
-h2, h3 {
+h2, h3, p{
     font-family: 'Open sans';
     src: url('../font/OpenSans_Condensed-SemiBold.ttf') format('opentype');
 }
@@ -21,6 +21,7 @@ h2, h3 {
     min-height: 70vh;
     position: relative;
     color: rgba(239, 233, 174, 1);
+    font-size: 0.9rem;
 }
 
 .header-content {
@@ -40,11 +41,6 @@ h1, nav li{
     
 }
 
-h2, h3, p {
-    font-family: "Open sans" Georgia, 'Times New Roman', Times, serif;
-    src: url(../font/OpenSans_Condensed-SemiBold.ttf) format(truetype);
-    color: black
-}
 
 nav {
     position: static;
@@ -88,4 +84,33 @@ header a, footer a {
     display: inline-block;
     overflow: hidden;
     padding: 15px 30px;
+}
+
+.news {
+    max-width: 800px;
+    font-size: 0.7rem;
+    margin: auto;
+}
+
+.news img {
+    width: 200px;
+    height: 200px;
+}
+
+.news h3 {
+    max-width: 200px;
+}
+
+.explore { 
+    max-width: 800px;
+    margin: auto;
+}
+
+.explore img {
+width: 300px
+}
+
+.big-pic img {
+   width: 1000px;
+   height: 800px;
 }

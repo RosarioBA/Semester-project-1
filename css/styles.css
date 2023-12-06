@@ -132,3 +132,8 @@ width: 300px
     display: flex;
     flex-direction: column;
 }
+
+.kids-img {
+    display: flex;
+    flex-direction: row;
+}

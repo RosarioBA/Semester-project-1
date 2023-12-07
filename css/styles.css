@@ -92,6 +92,11 @@ header a, footer a {
     margin: auto;
 }
 
+.news-content {
+    display: flex;
+    flex-direction: row;
+}
+
 .news img {
     width: 200px;
     height: 200px;
@@ -99,6 +104,10 @@ header a, footer a {
 
 .news h3 {
     max-width: 200px;
+}
+
+.news-elements {
+    padding: 10px;
 }
 
 .explore { 
@@ -134,6 +143,27 @@ width: 300px
 }
 
 .kids-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.teachers-content {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.researchers-section {
+    background-color: rgba(253, 206, 181, 1);
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+.researchers-content {
+    max-width: 800px;
+    margin: auto;
     display: flex;
     flex-direction: row;
 }

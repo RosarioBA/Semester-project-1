@@ -167,3 +167,20 @@ width: 300px
     display: flex;
     flex-direction: row;
 }
+
+/*Exhibitions*/
+
+.exhibition-title {
+    background-color: rgba(239, 233, 174, 1);
+    border-radius: 10px;
+    padding: 1px 120px
+}
+
+.exhibition-page {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.exhibition-page img {
+    width: 300px
+}

@@ -182,5 +182,12 @@ width: 300px
 }
 
 .exhibition-page img {
-    width: 300px
+    width: 250px;
+}
+
+.exhibition-column {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    line-height: 1.5;
 }

@@ -9,7 +9,7 @@
   }
   
  
-h2, h3, p{
+h2, h3, p, li{
     font-family: 'Open sans';
     src: url('../font/OpenSans_Condensed-SemiBold.ttf') format('opentype');
 }
@@ -203,4 +203,16 @@ width: 300px
 
 .exhibition-column > * {
     flex: 1;
+}
+
+/*contribution page*/
+
+.contribution-text {
+    max-width: 800px;
+    margin: 0px;
+}
+
+.contribution-reasons {
+    max-width: 800px;
+    margin: 0px;
 }

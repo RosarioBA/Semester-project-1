@@ -90,7 +90,7 @@ header a, footer a {
     max-width: 800px;
     font-size: 0.7rem;
     margin: auto;
-}
+  }
 
 .news-content {
     display: flex;
@@ -161,6 +161,8 @@ width: 300px
     padding: 20px 10px;
 }
 
+
+
 .researchers-content {
     max-width: 800px;
     margin: auto;
@@ -176,6 +178,12 @@ width: 300px
     padding: 1px 120px
 }
 
+.special-title {
+    background-color: rgba(253, 206, 181, 1);
+    border-radius: 10px;
+    padding: 1px 120px
+}
+
 .exhibition-page {
     max-width: 1000px;
     margin: auto;
@@ -183,6 +191,7 @@ width: 300px
 
 .exhibition-page img {
     width: 250px;
+    padding: 0px 50px 10px;
 }
 
 .exhibition-column {
@@ -190,4 +199,8 @@ width: 300px
     flex-direction: row;
     max-width: 800px;
     line-height: 1.5;
+}
+
+.exhibition-column > * {
+    flex: 1;
 }

@@ -222,6 +222,12 @@ width: 300px
 
 /*About Page*/
 
+.about-section {
+    background-color: rgba(253, 206, 181, 1);
+    border-radius: 10px;
+    padding: 1px 120px
+}
+
 .about-text {
     max-width: 600px;
     margin: auto;
@@ -296,4 +302,11 @@ width: 300px
       flex-direction: column;
       margin-bottom: 15px;
       max-width: 200px;
+  }
+
+  /*terms and conditions/ Policy Privacy*/
+
+  .privacy-terms {
+    max-width: 1000px;
+    margin: auto;
   }

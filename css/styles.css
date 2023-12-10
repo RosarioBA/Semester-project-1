@@ -249,3 +249,8 @@ width: 300px
     max-width: 300px;
     margin: 0px 120px;
   }
+
+  .rest-section {
+    max-width: 600px;
+    margin: 0px 120px;
+  }

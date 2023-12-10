@@ -44,6 +44,7 @@
     <p>Saturday: 9:00-16:00 </p>
     <p>Sunday: 9:00-13:00 </p>
     </div>
+    <div class="rest-section">
     <h2>Accesibility</h2>
     <img src="#" alt="wheelchair"/>
     <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
@@ -53,12 +54,19 @@
     <h2>Shop</h2>
     <img src="#" alt="paperbag"/>
     <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
-      </section>
+    </div>      
+    </section>
       <section>
         <h1>Get In Touch</h1>
         <p>Whether you have a question, feedback, or just want to say hello, we'd love to hear from you! Contact [Museum Name] through the following channels:</p>
         <h1>Send Us A Message</h1>
-        <a href="">SEND</a>
+        <form method="post">
+          <div class="contact-input">
+         <label for="name">Name</label>
+         <input type="text" id="name" name="name">
+         <label for="message">Message</label>
+         <textarea id="message" name="message" style="width: 400px;"></textarea>
+         <input type="submit" value="Send" class="cta-small"/>
       </section>
       <section>
         <h1> Connect With Us:</h1>

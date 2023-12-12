@@ -9,7 +9,7 @@
   }
   
  
-h2, h3, p, li, label{
+h2, h3, p, li, label, a{
     font-family: 'Open sans';
     src: url('../font/OpenSans_Condensed-SemiBold.ttf') format('opentype');
 }
@@ -98,8 +98,9 @@ header a, footer a {
 }
 
 .news img {
+    max-width: 100%;
     width: 200px;
-    height: 200px;
+    height: 170px;
 }
 
 .news h3 {
@@ -115,7 +116,8 @@ header a, footer a {
 }
 
 .explore img {
-width: 300px
+width: 300px;
+border-radius: 10px
 }
 
 .big-pic img {
@@ -123,18 +125,26 @@ width: 300px
    height: 800px;
 }
 
+.kids-p {
+    max-width: 1000px;
+    margin: auto;
+  }
+
 .kids-section {
     background-color: rgba(149, 163, 179, 1);
-    padding: 30px 20px;
+    padding: 2px 170px;
     border-radius: 10px;
 }
 
 .kids-content {
-    max-width: 800px;
-    margin: auto;
     display: flex;
     flex-direction: row;
+    max-width: 800px;
+    line-height: 1.5;
+}
 
+.kids-content > * {
+    flex: 1;
 }
 
 .kids-text { 
@@ -145,6 +155,8 @@ width: 300px
 .kids-img {
     display: flex;
     flex-direction: column;
+    padding: 0px 30px 0px;
+    justify-content: space-evenly;
 }
 
 .teachers-content {

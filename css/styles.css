@@ -87,10 +87,17 @@ header a, footer a {
 }
 
 .news {
-    max-width: 800px;
+    max-width: 700px;
     font-size: 0.7rem;
     margin: auto;
   }
+
+.news-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
 
 .news-content {
     display: flex;
@@ -105,6 +112,7 @@ header a, footer a {
 
 .news h3 {
     max-width: 200px;
+    font-size: 1em;
 }
 
 .news-elements {
@@ -123,16 +131,17 @@ border-radius: 10px
 .big-pic img {
    width: 1000px;
    height: 800px;
+   max-width: 100%;
 }
 
 .kids-p {
-    max-width: 1000px;
+    max-width: 800px;
     margin: auto;
   }
 
 .kids-section {
     background-color: rgba(149, 163, 179, 1);
-    padding: 2px 170px;
+    padding: 2px 0px;
     border-radius: 10px;
 }
 
@@ -143,7 +152,7 @@ border-radius: 10px
     line-height: 1.5;
 }
 
-.kids-content > * {
+.kids-content, .teachers-content, .researchers-content > * {
     flex: 1;
 }
 
@@ -155,7 +164,7 @@ border-radius: 10px
 .kids-img {
     display: flex;
     flex-direction: column;
-    padding: 0px 30px 0px;
+    padding: 0px 30px 10px;
     justify-content: space-evenly;
 }
 
@@ -164,13 +173,17 @@ border-radius: 10px
     margin: auto;
     display: flex;
     flex-direction: row;
+}
 
+.teacher-p {
+    max-width: 800px;
+    margin: auto;
 }
 
 .researchers-section {
     background-color: rgba(253, 206, 181, 1);
     border-radius: 10px;
-    padding: 20px 10px;
+    padding: 2px 0px;
 }
 
 
@@ -203,6 +216,7 @@ border-radius: 10px
 
 .exhibition-page img {
     width: 250px;
+    max-width: 100%;
     padding: 0px 50px 10px;
 }
 

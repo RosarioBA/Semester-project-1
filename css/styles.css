@@ -133,12 +133,6 @@ border-radius: 10px;
 margin-bottom: 10px;
 }
 
-.big-pic img {
-   width: 1000px;
-   height: 800px;
-   max-width: 100%;
-}
-
 .kids-p {
     max-width: 800px;
     margin: auto;
@@ -245,12 +239,34 @@ margin-bottom: 10px;
     flex: 1;
 }
 
-.news-elements p {
+.news-content p {
     max-width: 150px;
 }
 
 .news img {
     border-radius: 10px;
+}
+
+.orange-square {
+    background-color: rgba(253, 206, 181, 1);
+    border-radius: 10px;
+    padding: 19px 12px;
+}
+
+.blue-square {
+    background-color: rgba(149, 163, 179, 1);
+    border-radius: 10px;
+    padding: 11px 12px;
+}
+
+.yellow-square {
+    background-color: rgba(239, 233, 174, 1);
+    border-radius: 10px;
+    padding: 11px 12px;
+}
+
+.photo-padding {
+    padding: 0px;
 }
 
 /*contribution page*/
@@ -308,18 +324,18 @@ margin-bottom: 10px;
     text-align: center;
 }
 
-.about-text img {
-    text-align: center;
-}
-
 .about-text {
     max-width: 600px;
     margin: auto;
-    text-align: left
+    text-align: left;
+    line-height: 1.5;
 }
 
 .about-text img {
     width: 300px;
+   display: block;
+    margin: auto;
+    padding: 30px;
 }
 
 /*Contact Page*/

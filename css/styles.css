@@ -107,7 +107,7 @@ header a, footer a {
 .news img {
     max-width: 100%;
     width: 200px;
-    height: 170px;
+    height: 200px;
 }
 
 .news h3 {
@@ -116,7 +116,7 @@ header a, footer a {
 }
 
 .news-elements {
-    padding: 10px;
+    padding: 14px;
 }
 
 .explore { 
@@ -125,7 +125,8 @@ header a, footer a {
 
 .explore img {
 width: 300px;
-border-radius: 10px
+border-radius: 10px;
+margin-bottom: 10px;
 }
 
 .big-pic img {
@@ -231,6 +232,14 @@ border-radius: 10px
     flex: 1;
 }
 
+.news-elements p {
+    max-width: 150px;
+}
+
+.news img {
+    border-radius: 10px;
+}
+
 /*contribution page*/
 
 .contribution-text {
@@ -238,13 +247,41 @@ border-radius: 10px
     margin: 0px;
 }
 
+.support-text {
+    max-width: 450px;
+  padding: 0px 60px 0px 0px;
+}
+
 .contribution-reasons {
-    max-width: 800px;
     margin: 0px;
     background-color: rgba(239, 233, 174, 1);
-    padding: 30px 20px;
+    padding: 70px 130px;
     border-radius: 10px;
 }
+
+.contribution-page {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contribution-page img {
+    width: 200px;
+}
+
+.contribution-column {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    line-height: 1.5;
+  }
+
+  .why-contribution-text {
+    max-width: 800px;
+  }
+
+  .contribution-reasons li {
+    line-height: 2;
+  }
 
 /*About Page*/
 
@@ -252,6 +289,14 @@ border-radius: 10px
     background-color: rgba(253, 206, 181, 1);
     border-radius: 10px;
     padding: 1px 120px
+}
+
+.about-text h1 {
+    text-align: center;
+}
+
+.about-text img {
+    text-align: center;
 }
 
 .about-text {

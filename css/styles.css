@@ -11,6 +11,8 @@
 body {
     min-height: 100vh;  
     margin: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 h2, h3, p, li, label{
@@ -18,14 +20,22 @@ h2, h3, p, li, label{
     src: url('../font/OpenSans_Condensed-SemiBold.ttf') format('opentype');
 }
 
+header { 
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
 .header {
 
     background: url("../images 2/girl-with-VR.jpg") center no-repeat;
     background-size: cover;
-    min-height: 70vh;
+    min-height: 50vh;
     position: relative;
     color: rgba(239, 233, 174, 1);
     font-size: 0.9rem;
+    margin-top: 50px;
 }
 
 .header-content {
@@ -47,14 +57,27 @@ h1, nav li, a{
 
 
 nav {
-    position: static;
-    display: block;
-    text-align: center;
+    margin-left: 25px;
+    display: none;
+    position: fixed;
+    top: 45px;
+    background-color: white;
+    z-index: 1000;
+    right: 0px;  
 }
 
 nav li {
-    display: inline-block;
-    padding: 20px 50px;
+    display: block;
+    padding: 20px 30px;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+
 }
 
 .logo {
@@ -105,7 +128,7 @@ header a, footer a {
 }
 
 .news {
-    max-width: 700px;
+    max-width: 280px;
     font-size: 0.7rem;
     margin: auto;
   }
@@ -119,12 +142,12 @@ header a, footer a {
 
 .news-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column
 }
 
 .news img {
     max-width: 100%;
-    width: 200px;
+    width: 215px;
     height: 200px;
 }
 
@@ -148,7 +171,7 @@ margin-bottom: 10px;
 }
 
 .kids-p {
-    max-width: 800px;
+    max-width: 280px;
     margin: auto;
   }
 
@@ -156,11 +179,12 @@ margin-bottom: 10px;
     background-color: rgba(149, 163, 179, 1);
     padding: 2px 0px;
     border-radius: 10px;
+    margin-top: 50px;
 }
 
 .kids-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     max-width: 800px;
     line-height: 1.5;
 }
@@ -177,19 +201,18 @@ margin-bottom: 10px;
 .kids-img {
     display: flex;
     flex-direction: column;
-    padding: 0px 30px 10px;
     justify-content: space-evenly;
 }
 
-.teachers-content {
+.teachers-content, .researchers-content {
     max-width: 800px;
     margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .teacher-p {
-    max-width: 800px;
+    max-width: 280px;
     margin: auto;
 }
 
@@ -197,13 +220,6 @@ margin-bottom: 10px;
     background-color: rgba(253, 206, 181, 1);
     border-radius: 10px;
     padding: 2px 0px;
-}
-
-.researchers-content {
-    max-width: 800px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
 }
 
 .museum-photo {
@@ -219,7 +235,8 @@ margin-bottom: 10px;
 .exhibition-title {
     background-color: rgba(239, 233, 174, 1);
     border-radius: 10px;
-    padding: 1px 120px
+    padding: 1px 120px;
+    margin-top: 50px;
 }
 
 .special-title {
@@ -229,7 +246,7 @@ margin-bottom: 10px;
 }
 
 .exhibition-page {
-    max-width: 1000px;
+    max-width: 280px;
     margin: auto;
 }
 
@@ -244,7 +261,7 @@ margin-bottom: 10px;
 
 .exhibition-column, .information-column  {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     max-width: 800px;
     line-height: 1.5;
 }
@@ -264,19 +281,19 @@ margin-bottom: 10px;
 .orange-square {
     background-color: rgba(253, 206, 181, 1);
     border-radius: 10px;
-    padding: 19px 12px;
+    padding: 19px 32px;
 }
 
 .blue-square {
     background-color: rgba(149, 163, 179, 1);
     border-radius: 10px;
-    padding: 11px 12px;
+    padding: 11px 32px;
 }
 
 .yellow-square {
     background-color: rgba(239, 233, 174, 1);
     border-radius: 10px;
-    padding: 11px 12px;
+    padding: 11px 32px;
 }
 
 .photo-padding {
@@ -298,12 +315,12 @@ margin-bottom: 10px;
 .contribution-reasons {
     margin: 0px;
     background-color: rgba(239, 233, 174, 1);
-    padding: 70px 130px;
+    padding: 12px 73px;
     border-radius: 10px;
 }
 
 .contribution-page {
-    max-width: 1000px;
+    max-width: 280px;
     margin: auto;
 }
 
@@ -313,7 +330,7 @@ margin-bottom: 10px;
 
 .contribution-column {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     max-width: 800px;
     line-height: 1.5;
   }
@@ -436,4 +453,63 @@ margin-bottom: 10px;
   .privacy-terms {
     max-width: 1000px;
     margin: auto;
+  }
+
+  @media (min-width: 600px){
+
+    .header { 
+        margin-top: initial;
+        min-height: 70vh;
+    }
+
+
+    header {
+        justify-content: space-evenly;
+    }
+
+    nav {
+    position: static; 
+    display: block;
+    text-align: center;
+    margin-bottom: none;
+  }
+
+    nav li {
+        display: inline-block;
+        padding: 20px 50px;
+        margin-bottom: none;
+  }
+
+    .news-content, .kids-content, 
+    .teachers-content, .researchers-content 
+    .exhibition-column, .information-column, .contribution-column {
+        flex-direction: row
+    }
+    .news {
+        max-width: 700px;
+    }
+
+    .kids-img {
+        padding: 0px 30px 10px;
+    }
+
+    .kids-p, .teacher-p  {
+        max-width: 800px;
+      }
+
+    .exhibition-page, .contribution-page {
+        max-width: 1000px;
+      }
+
+    .exhibition-title, .kids-section  {
+        margin-top: initial;
+    }
+
+      .orange-square, .blue-square, .yellow-square {
+        padding: 11px 12px;
+    }
+
+    .contribution-reasons {
+        padding: 70px 130px;
+}
   }

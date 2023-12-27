@@ -1,0 +1,108 @@
+.news {
+    max-width: 280px;
+    font-size: 0.7rem;
+    margin: auto;
+  }
+
+.news-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.news-content {
+    display: flex;
+    flex-direction: column
+}
+
+.news-content p {
+    max-width: 150px;
+}
+
+.news img {
+    max-width: 100%;
+    width: 215px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.news h3 {
+    max-width: 200px;
+    font-size: 1em;
+}
+
+.news-elements {
+    padding: 17px;
+}
+
+.explore { 
+    margin: auto;
+}
+
+.explore img {
+width: 300px;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+.kids-p {
+    max-width: 280px;
+    margin: auto;
+  }
+
+.kids-section {
+    background-color: rgba(149, 163, 179, 1);
+    padding: 2px 0px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.kids-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    line-height: 1.5;
+}
+
+.kids-content, .teachers-content, .researchers-content > * {
+    flex: 1;
+}
+
+.kids-text { 
+    display: flex;
+    flex-direction: column;
+}
+
+.kids-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.teachers-content, .researchers-content {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.teacher-p {
+    max-width: 280px;
+    margin: auto;
+}
+
+.researchers-section {
+    background-color: rgba(253, 206, 181, 1);
+    border-radius: 10px;
+    padding: 2px 0px;
+}
+
+.museum-photo {
+    background-image: url('../images 2/skeleton-at-museum.jpg'); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* 100% of the viewport height */
+}
+

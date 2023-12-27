@@ -1,0 +1,108 @@
+@media (min-width: 600px){
+
+
+    .header { 
+        min-height: 70vh;
+    }
+
+
+    header {
+        justify-content: space-evenly;
+    }
+
+    .news-content, .kids-content, 
+    .teachers-content, .researchers-content,
+    .exhibition-column, .exhibition-content, .information-column, .contribution-column {
+        flex-direction: row
+    }
+    .news, .exhibitions {
+        max-width: 700px;
+    }
+
+    .kids-img {
+        padding: 0px 30px 10px;
+    }
+
+    .kids-p, .teacher-p  {
+        max-width: 800px;
+      }
+
+    .exhibition-page, .contribution-page, .contact-us {
+        max-width: 1000px;
+      }
+
+
+      .orange-square, .blue-square, .yellow-square {
+        padding: 11px 12px;
+    }
+
+    .contribution-reasons {
+        padding: 70px 130px;
+}
+
+    .about-section {
+        padding: 1px 120px;
+    }
+
+    .about-text img {
+        padding: 30px;
+    }
+
+    .about-text, .visit-text, .rest-section {
+        max-width: 600px;
+    }
+
+    .visit-text {
+        margin: 0px 100px;
+    }
+
+    .hour-section, .rest-section{
+        margin: 0px 120px;
+    }
+
+    .contact-section {
+        padding: 10px 110px;
+        margin: 0px 110px;
+    }
+
+    textarea {
+        min-height: 240px;
+        margin-top: 20px;
+        min-width: 532px;
+  }
+  
+  .small-widgets  {
+    max-width: 100%;
+    height: 25px;
+    padding: 24px 8px;
+}
+
+.privacy-terms {
+    margin: auto;
+  }
+  }
+
+  @media (min-width: 1000px){
+
+  header nav {
+    position: static; 
+    display: block;
+    text-align: center;
+    margin-bottom: none;
+  }
+
+  footer nav {
+    text-align: center;
+  }
+
+    nav li {
+        display: inline-block;
+        padding: 20px 50px;
+        margin-bottom: none;
+  }
+
+    .header, .exhibition-title, .kids-section, .about-section,
+    .visit-section, .contribution-section {
+        margin-top: initial;
+    }
+  }

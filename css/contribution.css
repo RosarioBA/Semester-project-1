@@ -1,0 +1,49 @@
+/*contribution page*/
+
+.contribution-text {
+    max-width: 800px;
+    margin: 0px;
+}
+
+.support-text {
+    max-width: 450px;
+  padding: 0px 60px 0px 0px;
+}
+
+.contribution-section {
+    background-color: rgba(149, 163, 179, 1);
+    padding: 2px 0px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.contribution-reasons {
+    margin: 0px;
+    background-color: rgba(239, 233, 174, 1);
+    padding: 12px 73px;
+    border-radius: 10px;
+}
+
+.contribution-page {
+    max-width: 280px;
+    margin: auto;
+}
+
+.contribution-page img {
+    width: 200px;
+}
+
+.contribution-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    line-height: 1.5;
+  }
+
+  .why-contribution-text {
+    max-width: 800px;
+  }
+
+  .contribution-reasons li {
+    line-height: 2;
+  }

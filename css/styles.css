@@ -36,7 +36,7 @@ header {
 
 .header {
 
-    background: url("../images 2/girl-with-VR.jpg") center no-repeat;
+    background: url("../images/girl-with-VR.jpg") center no-repeat;
     background-size: cover;
     min-height: 50vh;
     position: relative;
@@ -86,7 +86,7 @@ nav li {
     left: 10px;
     top: 0px;
     position: absolute;
-    background: url('../images 2/Logo.png');
+    background: url('../images/Logo.png');
     background-size: 80%;
     background-repeat: no-repeat;
 }

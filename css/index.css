@@ -99,7 +99,7 @@ margin-bottom: 10px;
 }
 
 .museum-photo {
-    background-image: url('../images 2/skeleton-at-museum.jpg'); /* Replace with the path to your image */
+    background-image: url('../images/skeleton-at-museum.jpg'); /* Replace with the path to your image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -10,10 +10,6 @@
         justify-content: space-evenly;
     }
 
-    header label {
-        display: none;
-    }
-
     nav li {
         display: inline-block;
         margin-bottom: none;
@@ -99,6 +95,10 @@
     text-align: center;
     margin-bottom: none;
   }
+
+  header label {
+    display: none;
+}
 
   footer nav {
     text-align: center;

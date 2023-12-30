@@ -10,6 +10,10 @@
         justify-content: space-evenly;
     }
 
+    header label {
+        display: none;
+    }
+
     nav li {
         display: inline-block;
         margin-bottom: none;

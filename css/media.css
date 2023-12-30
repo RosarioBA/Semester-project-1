@@ -10,6 +10,11 @@
         justify-content: space-evenly;
     }
 
+    nav li {
+        display: inline-block;
+        margin-bottom: none;
+  }
+
     .news-content, .kids-content, 
     .teachers-content, .researchers-content,
     .exhibition-column, .exhibition-content, .information-column, .contribution-column {
@@ -93,12 +98,6 @@
 
   footer nav {
     text-align: center;
-  }
-
-    nav li {
-        display: inline-block;
-        padding: 20px 50px;
-        margin-bottom: none;
   }
 
     .header, .exhibition-title, .kids-section, .about-section,

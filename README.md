@@ -1,4 +1,6 @@
 # Semester Project 1
+<img width="468" alt="website-screenshot" src="https://github.com/RosarioBA/Semester-project-1/assets/146356539/63a87315-85b6-45c7-bced-f4e57d589abd">
+
 A website created for a course assignment, targeting a young audience with specific interests. The goal was to design and develop an engaging, user-friendly website with a clean layout and a vibrant pastel color palette.
 
 
